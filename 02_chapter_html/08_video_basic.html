@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 동영성 파일의 확장자는 .mp4, ,webm-->
+    <!-- controls="controls" : 조작패널 -->
+    <!-- width = 가로크기 -->
+    <!-- sorce태그 src="동영상 파일 경로" -->
+    <video width="640" height="400" controls="controls">
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" /> <!-- 동영상이 이렇게 만일을 위해 두개 이상이면 차례로 우선권을 가진다. -->
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.webm" type="video/webm" />
+    </video>
+</body>
+</html>
